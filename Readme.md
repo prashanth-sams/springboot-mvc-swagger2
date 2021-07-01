@@ -17,9 +17,9 @@
 > Port: 8082
 
 
-> ### favorite verse service
+> ### notes service
 > **Input:** User ID
 > 
-> **Output:** Chapter IDs and favorites
+> **Output:** Chapter IDs and notes
 >
 > Port: 8083

@@ -1,10 +1,10 @@
-package com.wmock.favorites;
+package com.wmock.notes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FavoriteApiTests {
+class NotesApiTests {
 
 	@Test
 	void contextLoads() {

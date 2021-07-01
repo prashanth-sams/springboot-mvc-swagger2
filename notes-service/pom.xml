@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wmock</groupId>
-	<artifactId>favorite-verse-service</artifactId>
+	<artifactId>notes-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>favorite-verse-service</name>
-	<description>Bible Chapter Favorites Service</description>
+	<name>notes-service</name>
+	<description>Bible Notes Service</description>
 	<properties>
 		<java.version>16</java.version>
 		<spring-cloud.version>2020.0.4-SNAPSHOT</spring-cloud.version>
