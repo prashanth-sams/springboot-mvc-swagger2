@@ -1,6 +1,6 @@
 package com.wmock.info.controller;
 
-import com.wmock.info.models.Chapter;
+import com.wmock.info.models.ChapterInfoModel;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ChapterInfoController {
 
     @RequestMapping("/{chapterId}")
-    public Chapter getChapterInfo(@PathVariable("chapterId") String chapterId) {
-        return new Chapter(chapterId, "Chapter name");
+    public ChapterInfoModel getChapterInfo(@PathVariable("chapterId") String chapterId) {
+        return new ChapterInfoModel(chapterId, "Chapter name");
     }
 
 

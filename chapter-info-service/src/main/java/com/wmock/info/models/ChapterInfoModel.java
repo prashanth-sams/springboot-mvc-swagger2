@@ -1,11 +1,11 @@
 package com.wmock.info.models;
 
-public class Chapter {
+public class ChapterInfoModel {
 
     private String chapterId;
     private String name;
 
-    public Chapter(String chapterId, String name) {
+    public ChapterInfoModel(String chapterId, String name) {
     }
 
     public String getChapterId() {

@@ -1,12 +1,12 @@
-package models;
+package com.wmock.catalog.models;
 
-public class ChapterItemsModel {
+public class ChapterCatalogModel {
 
     private String name;
     private String desc;
     private Integer notes;
 
-    public ChapterItemsModel(String name, String desc, Integer notes) {
+    public ChapterCatalogModel(String name, String desc, Integer notes) {
         this.name = name;
         this.desc = desc;
         this.notes = notes;
