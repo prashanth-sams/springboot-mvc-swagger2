@@ -6,6 +6,8 @@ public class ChapterInfoModel {
     private String name;
 
     public ChapterInfoModel(String chapterId, String name) {
+        this.chapterId = chapterId;
+        this.name = name;
     }
 
     public String getChapterId() {
