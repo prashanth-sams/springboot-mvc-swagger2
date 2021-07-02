@@ -1,9 +1,7 @@
-package com.wmock.catalog.controller;
+package com.wmock.catalog.controllers;
 
 import com.wmock.catalog.models.ChapterCatalogModel;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
 import java.util.List;
@@ -12,7 +10,7 @@ import java.util.List;
 @RequestMapping("/api/catalog")
 public class ChapterCatalogController {
 
-    @RequestMapping("/{userId}")
+    @RequestMapping(method = RequestMethod.GET, value = "/{userId}")
     public List<ChapterCatalogModel> getCatalog(@PathVariable("userId") String userId) {
 
         return Collections.singletonList(
