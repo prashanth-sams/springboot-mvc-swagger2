@@ -1,6 +1,6 @@
 # 配置tomcat端口号
 server:
-  port: 8080
+  port: 8081
 
 # 配置数据源
 spring:
