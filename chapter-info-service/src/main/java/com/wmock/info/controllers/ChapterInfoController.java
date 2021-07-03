@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("/api/chapter")
+@RequestMapping(value = "/api/chapter", produces = "application/json")
 public class ChapterInfoController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/{chapterId}")
