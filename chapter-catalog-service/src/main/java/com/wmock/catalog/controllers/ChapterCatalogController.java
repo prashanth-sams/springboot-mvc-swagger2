@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/catalog")
+@RequestMapping(value = "/api/catalog", produces = "application/json")
 public class ChapterCatalogController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/{userId}")
