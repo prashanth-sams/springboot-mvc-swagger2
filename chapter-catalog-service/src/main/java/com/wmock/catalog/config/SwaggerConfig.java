@@ -1,9 +1,7 @@
-package com.wmock.info.config;
+package com.wmock.catalog.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
@@ -12,15 +10,14 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-public class SpringConfig {
+public class SwaggerConfig {
 
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.wmock.info.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("com.wmock.catalog.controllers"))
                 .paths(PathSelectors.any())
                 .build();
     }
-
 }

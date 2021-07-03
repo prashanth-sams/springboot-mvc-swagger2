@@ -96,7 +96,6 @@
 								<description>OAS 2.0 documentation</description>
 							</info>
 							<swaggerDirectory>${basedir}/target/swagger/temp</swaggerDirectory>
-							<outputPath>${basedir}/target/swagger/temp/document.html</outputPath>
 							<swaggerApiReader>com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader
 							</swaggerApiReader>
 							<swaggerFileName>internal-swagger</swaggerFileName>

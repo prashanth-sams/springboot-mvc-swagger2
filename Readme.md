@@ -1,6 +1,6 @@
-# WireMock Spring Boot Boilerplate
+# WireMock SpringBoot MVC Swagger2
 
-#### Spring Boot MVC applications with 3 microservices
+#### 3 Microservices with Mock Service
 
 ---
 
